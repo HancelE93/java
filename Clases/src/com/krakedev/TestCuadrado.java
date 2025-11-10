@@ -5,8 +5,13 @@ public class TestCuadrado {
 	public static void main(String[] args) {
 		Cuadrado c1=new Cuadrado();
 		Cuadrado p1=new Cuadrado();
+		
+		Cuadrado c2= new Cuadrado(5);
+		
 		double areaC1;
 		double perimetroC;
+		double areaC2;
+
 		
 		
 		c1.setLado(4);
@@ -15,8 +20,12 @@ public class TestCuadrado {
 		p1.setLado(3);;
 		perimetroC =p1.getPerimetro();
 		
-		System.out.println("El area del cuadrado es:" + areaC1);
+		areaC2=c2.getArea();
+		
+		System.out.println("El area del cuadrado 1 es:" + areaC1);
 		System.out.println("El perimetro del cuadrado es:" + perimetroC);
+		
+		System.out.println("El area del cuadrado 2 es:" + areaC2);
 		
 	}
 

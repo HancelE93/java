@@ -5,6 +5,17 @@ public class Auto {
 	private int año;
 	private double precio;
 	
+	public Auto() {
+		
+	}
+	
+	
+	public Auto (String marca, int año, double precio) {
+		this.marca=marca;
+		this.año=año;
+		this.precio=precio;
+	}
+	
 	public String getMarca() {
 		return marca;
 	}

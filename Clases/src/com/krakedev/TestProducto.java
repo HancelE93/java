@@ -6,6 +6,7 @@ public class TestProducto {
 		Producto p1 = new Producto();
 		Producto p2 = new Producto();
 		Producto p3 = new Producto();
+		Producto p4 = new Producto("Televisor","Plasma 80 pulgadas");
 		
 		System.out.println("*****************");
 		System.out.println("nombre:"+p1.getNombre());
@@ -50,6 +51,14 @@ public class TestProducto {
 		System.out.println("descripcion:"+p3.getDescripcion());
 		System.out.println("precio:"+p3.getPrecio());
 		System.out.println("Stock Actual:"+p3.getStockActual());
+		System.out.println("*****************");
+		
+		
+		System.out.println("*****************");
+		System.out.println("nombre:"+p4.getNombre());
+		System.out.println("descripcion:"+p4.getDescripcion());
+		System.out.println("precio:"+p4.getPrecio());
+		System.out.println("Stock Actual:"+p4.getStockActual());
 		System.out.println("*****************");
 		
 
