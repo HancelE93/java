@@ -2,14 +2,23 @@ package com.krakedev;
 
 public class Cuadrado {
 
-	public int lado;
+	private int lado;
 	
 	
-	public double calcularArea() {
+	public int getLado() {
+		return lado;
+	}
+	public void setLado(int lado) {
+		this.lado = lado;
+	}
+	
+	public double getArea() {
 		double area= lado * lado;
 		return area;
 	}
-	public double calcularPerimetro() {
+	
+	
+	public double getPerimetro() {
 		double perimetro= lado * 4;
 		return perimetro;
 

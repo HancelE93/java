@@ -9,11 +9,11 @@ public class TestCuadrado {
 		double perimetroC;
 		
 		
-		c1.lado=4;
-		areaC1 =c1.calcularArea();
+		c1.setLado(4);
+		areaC1 =c1.getArea();
 		
-		p1.lado=3;
-		perimetroC =p1.calcularPerimetro();
+		p1.setLado(3);;
+		perimetroC =p1.getPerimetro();
 		
 		System.out.println("El area del cuadrado es:" + areaC1);
 		System.out.println("El perimetro del cuadrado es:" + perimetroC);

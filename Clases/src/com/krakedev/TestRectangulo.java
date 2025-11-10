@@ -11,21 +11,21 @@ public class TestRectangulo {
 		int areaR2;
 		double perimetroR;
 		
-		r1.base=10;
-		r1.altura=5;
+		r1.setBase(10);
+		r1.setAltura(5);
 		
 		
-		r2.base=8;
-		r2.altura=3;
+		r2.setBase(8);
+		r2.setAltura(3);
 		
 		
-		p.base=4;
-		p.altura=2;
+		p.setBase(4);
+		p.setAltura(2);
 		
-		areaR1 =r1.calcularArea();
-		areaR2 =r2.calcularArea();
+		areaR1 =r1.getArea();
+		areaR2 =r2.getArea();
 		
-		perimetroR =p.calcularPerimetro();
+		perimetroR =p.getPerimetro();
 		
 		System.out.println("El area del Rectangul es: "+areaR1);
 		System.out.println("El area del Rectangul es: "+areaR2);
