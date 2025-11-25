@@ -21,6 +21,6 @@ public class AdminAlarmas {
 
 
 	public void agregarAlarmas(Alarma alarma) {
-		alarmas.add(alarma);
+		alarmas.add(alarma); //se agrega a la lista 
 	}
 }

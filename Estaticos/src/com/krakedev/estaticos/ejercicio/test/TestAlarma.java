@@ -16,13 +16,15 @@ public class TestAlarma {
 
         // 1. Crear el administrador de alarmas
         // Este objeto tendrá internamente un ArrayList vacío listo para guardar alarmas
-        AdminAlarmas admin = new AdminAlarmas();
+        AdminAlarmas admin = new AdminAlarmas();// instanciar alarmas
 
 
         // 2. Crear alarmas usando las CONSTANTES de DiasSemana e ingresarlas al admin
         // new Alarma(dia, hora, minuto)
 
-        admin.agregarAlarmas(new Alarma(DiasSemana.LUNES, 5, 45));   
+        admin.agregarAlarmas(new Alarma(DiasSemana.LUNES, 5, 45)); 
+        //agregamos a la lista usando el metodo agregarAlarmas 
+        
         // Crea una alarma para el lunes 05:45 y la guarda dentro del ArrayList de admin
 
         admin.agregarAlarmas(new Alarma(DiasSemana.MARTES, 6, 30));  
